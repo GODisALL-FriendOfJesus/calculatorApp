@@ -376,8 +376,7 @@ function App() {
   );
 }
 
-export default App;
-now give codes for full final project with tailwind
+export default App
 
 Here is the complete, final project code using React (Functional Components) and Tailwind CSS, matching the exact layout, colors (#858694 display, #e0e0e0 light gray buttons, #f5913e orange operators), and behavior (AC, +/-, %, ÷, x, -, +, =, ., plus chained operations) shown in your video.
 
