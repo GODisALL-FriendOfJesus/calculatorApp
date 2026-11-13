@@ -255,7 +255,7 @@ Bash
 git add .
 git commit -m "Refine Tailwind responsive grid layout"
 git push origin feature/ui-layout
-
+public/full explain.txt
 git checkout main
 git merge feature/ui-layout
 git push origin main
