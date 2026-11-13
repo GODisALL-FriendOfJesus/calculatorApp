@@ -10,7 +10,7 @@ function App() {
     setDisplay(prev => (prev === '0' ? String(num) : prev + num));
   };
 
-  // Handle operators (+, -, x, ÷)
+  // Handle operators (+, -, x, ÷)while checking for translation of devision and  multiplication
   const handleOperator = (op) => {
     // Convert visual 'x' and '÷' to JavaScript operators '*' and '/'
     const jsOp = op === 'x' ? '*' : op === '÷' ? '/' : op;
