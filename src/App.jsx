@@ -24,7 +24,7 @@ function App() {
     setEquation('');
   };
 
-  // Calculate result (=)
+  // Calculate result (=) with reseting display and equation
   const handleCalculate = () => {
     try { 
       const fullExpression = equation + display;
